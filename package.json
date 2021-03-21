@@ -1,0 +1,30 @@
+{
+  "name": "trialbot",
+  "version": "1.0.0",
+  "description": "AEG ChatBot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "prod": "nodemon -r dotenv/config app.js"
+  },
+  "author": "Rishi Raj Singh",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dialogflow": "^1.2.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.5.0",
+    "fuse.js": "^6.0.0",
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.9.21",
+    "ngrok": "^3.2.7",
+    "request": "^2.88.2",
+    "validate.js": "^0.13.1",
+    "validator": "^13.0.0",
+    "validatorjs": "^3.18.1"
+  }
+}
